@@ -1,0 +1,172 @@
+.def-form{
+    max-width: 400px;
+
+    fieldset{
+
+    }
+
+    input,textarea{
+
+    }
+    input[type=number]{
+        &::-webkit-outer-spin-button,
+        &::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+        &[type=number] {
+            -moz-appearance: textfield;
+        }
+    }
+
+    &-group{
+
+
+    }
+    &-label{
+        label{
+            margin-bottom: 0;
+        }
+    }
+    &-title{
+
+    }
+
+    &-field{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+       label{
+           margin-bottom: 0;
+       }
+
+        input{
+
+        }
+
+        textarea{
+
+        }
+
+        &.required{
+            label{
+                position: relative;
+             &:after{
+              content:"*";
+              position:relative;
+
+             }
+            }
+        }
+
+        .error{
+
+            span{
+
+            }
+        }
+    }
+
+
+    [type=submit]{
+        &.loading{
+            cursor: not-allowed;
+        }
+        position: relative;
+        .def-form-submit-loader{
+            pointer-events: none;
+            background-color: rgba(255, 255, 255, 0.56);
+            position: absolute;
+            right: 0;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+
+
+}
+
+
+.def-form {
+    max-width: 464px;
+
+    &-field {
+        $thisField : &;
+        //padding-bottom: 20px;
+
+        //&:not(:last-child) {
+        margin-bottom: 36px;
+
+        //}
+
+        &.required {
+            label {
+                &:after {
+                    color: $red;
+                }
+            }
+        }
+
+        &.error {
+            input, textarea {
+                border: 1px solid $red;
+            }
+
+            #{$thisField}-error {
+                position: absolute;
+                top: calc(100% + 2px);
+                left: 0;
+                //@include main-font-small;
+                font-size: 14px;
+                line-height: 18px;
+                height: 36px;
+                display: flex;
+                align-items: flex-start;
+            }
+        }
+
+        &-error {
+            color: $red;
+        }
+
+    }
+
+    &-label {
+        margin-bottom: 2px;
+        @include df-jsb;
+
+    }
+
+
+
+    &-submit {
+
+        .btn {
+            & + .btn, & + h4 {
+                margin-top: 16px;
+            }
+        }
+
+        h4 {
+            padding: 24px 0;
+
+
+        }
+    }
+
+    &-msg-error {
+        color: $red;
+    }
+
+    &-msg-success {
+        color: $blue;
+    }
+
+
+}

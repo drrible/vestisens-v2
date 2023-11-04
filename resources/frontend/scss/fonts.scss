@@ -1,0 +1,49 @@
+/*
+|‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+| Fonts
+|‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+*/
+
+
+@font-face {
+    font-family: 'ObjectSans-Regular';
+    src: url('../fonts/ObjectSans-Regular.eot');
+    src: url('../fonts/ObjectSans-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ObjectSans-Regular.woff2') format('woff2'),
+    url('../fonts/ObjectSans-Regular.woff') format('woff'),
+    url('../fonts/ObjectSans-Regular.ttf') format('truetype'),
+    url('../fonts/ObjectSans-Regular.svg#ObjectSans-Regular') format('svg');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ObjectSans-Heavy';
+    src: url('../fonts/ObjectSans-Heavy.eot');
+    src: url('../fonts/ObjectSans-Heavy.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ObjectSans-Heavy.woff2') format('woff2'),
+    url('../fonts/ObjectSans-Heavy.woff') format('woff'),
+    url('../fonts/ObjectSans-Heavy.ttf') format('truetype'),
+    url('../fonts/ObjectSans-Heavy.svg#ObjectSans-Heavy') format('svg');
+    font-style: normal;
+}
+
+
+@mixin Object-Sans-Reg {
+    font-weight: normal;
+    font-family: 'ObjectSans-Regular', sans-serif;
+}
+
+@mixin Object-Sans-Bold {
+    font-weight: 800;
+    font-family: 'ObjectSans-Heavy', sans-serif;
+}
+
+
+
+/*
+|‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+| Icommon icons
+|‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+*/
+@import "../fonts/icomoon/style.css";
+

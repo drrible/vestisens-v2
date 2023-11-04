@@ -1,0 +1,233 @@
+// display flex and column positions
+@mixin df-fdc {
+  display: flex;
+  flex-direction: column;
+}
+@mixin df-fdc-alc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@mixin df-fdc-jcc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@mixin df-fdc-fstart {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+@mixin df-fdc-al-fend {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+// display flex and row positions
+
+@mixin df-wrap{
+  display: flex;
+  flex-flow: wrap;
+}
+
+@mixin df-jsb {
+  display: flex;
+  justify-content: space-between;
+}
+
+@mixin df-jcc {
+  display: flex;
+  justify-content: center;
+}
+@mixin df-jc-fe {
+    display: flex;
+    justify-content: flex-end;
+}
+@mixin df-jc-fstart {
+  display: flex;
+  justify-content: flex-start;
+}
+@mixin df-alc {
+  display: flex;
+  align-items: center;
+}
+
+@mixin df-al-fend {
+  display: flex;
+  align-items: flex-end;
+}
+@mixin df-al-fstart {
+  display: flex;
+  align-items: flex-start;
+}
+
+@mixin df-alc-jcc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin df-alc-jsb {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+@mixin df-al-fend-jsb {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+@mixin df-grow($grow:1){
+  display: flex;
+  flex-grow: $grow;
+}
+
+///  position (flex)
+
+@mixin fdc-alc {
+  flex-direction: column;
+  align-items: center;
+}
+@mixin fdc-alfs {
+    flex-direction: column;
+    align-items: flex-start;
+}
+@mixin alc-jcc {
+  align-items: center;
+  justify-content: center;
+}
+@mixin alc-jsb {
+    align-items: center;
+    justify-content: space-between;
+}
+
+@mixin flex ($direction, $justify, $align){
+  display:flex;
+  flex-direction:$direction;
+  justify-content:$justify;
+  align-items:$align;
+}
+
+
+
+.df {
+  display: flex;
+}
+
+// display flex and column positions
+.df-fdc {
+  display: flex;
+  flex-direction: column;
+}
+.df-fdc-alc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.df-fdc-jcc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.df-fdc-fstart {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.df-fdc-al-fend {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+// display flex and row positions
+
+.df-wrap{
+  display: flex;
+  flex-flow: wrap;
+}
+
+.df-jsb {
+  display: flex;
+  justify-content: space-between;
+}
+
+.df-jcc {
+  display: flex;
+  justify-content: center;
+}
+.df-jc-fe {
+    display: flex;
+    justify-content: flex-end;
+}
+.df-jc-fstart {
+  display: flex;
+  justify-content: flex-start;
+}
+.df-alc {
+  display: flex;
+  align-items: center;
+}
+
+.df-al-fend {
+  display: flex;
+  align-items: flex-end;
+}
+.df-al-fstart {
+  display: flex;
+  align-items: flex-start;
+}
+
+.df-alc-jcc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.df-alc-jsb {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.df-al-fend-jsb {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+
+///  position (flex)
+
+.fdc-alc {
+  flex-direction: column;
+  align-items: center;
+}
+.fdc-alfs {
+    flex-direction: column;
+    align-items: flex-start;
+}
+.alc-jcc {
+  align-items: center;
+  justify-content: center;
+}
+.alc-jsb {
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+
+

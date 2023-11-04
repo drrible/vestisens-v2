@@ -1,0 +1,35 @@
+.create_edit-content{
+    input.form-control, select.form-control{
+        font-size: 16px;
+    }
+
+    button[type=submit]{
+        background-color: $blue;
+    }
+
+}
+.nav-item{
+  &:hover{
+      //background-color: $blue;
+  }
+}
+
+
+.dash-content{
+    h2{
+        font-size: 24px;
+    }
+
+}
+.flash-message{
+    .close{
+        display: block;
+        right: 0;
+        position: absolute;
+        font-size: 30px;
+        top: 0;
+        width: 38px;
+        line-height: 30px;
+
+    }
+}

@@ -1,0 +1,244 @@
+//______________________________
+//            Profile
+//______________________________
+
+.profile, .news {
+    &-img {
+        overflow: hidden;
+        border-radius: 30% 15% 0 30%;
+        &:hover {
+           img{
+               transform: scale(1.1);
+           }
+        }
+        img {
+            transition: all 0.5s ease-in-out;
+        }
+    }
+
+    &-info {
+        max-width: 700px;
+        h3 {
+            margin-bottom: 16px;
+        }
+
+        div {
+            color: #918f8f;
+            &:not(:last-child) {
+                margin-bottom: 10px;
+            }
+            span {
+                color: #1e2125;
+            }
+        }
+    }
+
+    @include media-max(575) {
+        flex-direction: column;
+        align-items: center;
+        &-info {
+            margin-top: 24px;
+        }
+    }
+}
+
+.profile-info{
+    max-width: 800px;
+    .card{
+        padding-right: 90px !important;
+
+    }
+}
+
+
+
+
+
+//         End Profile
+//______________________________
+
+
+
+//______________________________
+//             News
+//______________________________
+
+.category-title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 72px;
+    background-color: #ffffff;
+    box-shadow: 0px 10px 30px 0px #ededed;
+    padding: 16px 24px;
+    width: max-content;
+    margin-right: auto;
+    margin-left: auto;
+
+    span {
+        font-size: 28px;
+        line-height: 38px;
+        color: #14798f;
+        font-weight: 600;
+    }
+
+    a {
+        border-radius: 0;
+    }
+}
+.news-block{
+    padding: 24px;
+    box-shadow: 0px 10px 30px 0px #ededed;
+    margin: 0 24px;
+    &:not(:last-child){
+        margin-bottom: 48px;
+    }
+    .news{
+        &-img{
+            border: none;
+            border-radius: 0;
+            position: relative;
+            padding-top: 75%;
+            img{
+                position: absolute;
+                top: 0;
+            }
+        }
+        &-info{
+            a{
+                display: block;
+                margin-bottom: 24px;
+            }
+        }
+    }
+
+    &:hover {
+        img{
+            transform: scale(1.1);
+        }
+        a{
+            color: #14798f;
+        }
+    }
+
+}
+.section_news-category{
+    .container{
+        max-width: 1280px;
+    }
+}
+.section_news-single{
+    .container{
+        max-width: 850px;
+    }
+    .news {
+        &-block {
+            box-shadow: none;
+            margin: 0;
+            padding: 0;
+        }
+        &-info {
+            max-width: inherit;
+        }
+        &-img{
+            margin: 36px 0;
+        }
+    }
+}
+
+//______________________________
+//           End News
+//______________________________
+
+
+
+//______________________________
+//           Page 404
+//______________________________
+
+.page-404 {
+    //justify-content: space-between;
+
+    .img-404{
+        max-width: 248px;
+        padding-bottom: 48px;
+    }
+    p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .footer{
+        margin: 0;
+    }
+
+    .section-def{
+        margin-top: 10%;
+        align-items: center;
+        p{
+            max-width: 300px;
+         display: block;
+            margin: auto;
+        }
+    }
+    @include media-max(767){
+        .main{
+            height: 100%;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+        }
+
+        .img-404{
+            max-width: 128px;
+            padding-bottom: 24px;
+        }
+
+        p{
+            font-size: 14px;
+            line-height: 22px;
+        }
+    }
+}
+
+//______________________________
+//         End Page 404
+//______________________________
+
+
+
+
+
+//______________________________
+//         Custom
+//______________________________
+
+
+
+[data-bs-toggle="popover"]{
+    color: #14798f;
+}
+
+
+
+///  header auth
+
+
+
+.menu-for-auth{
+    background-color:$yellow;
+    padding: 4px;
+    ul{
+        display: flex;
+        justify-content: center;
+    }
+    a{
+
+        background-color: #14798f;
+        /* text-shadow: 0 0 #efefef; */
+        display: block;
+        color: white;
+        font-size: 16px;
+        padding: 4px 6px;
+        border-radius: 4px;
+    }
+}

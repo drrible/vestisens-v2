@@ -1,0 +1,28 @@
+@mixin font($family: false, $style: false, $weight: false, $height: false, $spacing: false){
+  @if $family {font-family: $family, sans-serif;}
+  @if $style {font-style: $style;}
+  @if $weight {font-weight: $weight;}
+  @if $height {line-height: $height;}
+  @if $spacing {letter-spacing: $spacing;}
+
+}
+
+//font-size and line-height
+@mixin fz-lh($fz, $lh){
+  font-size: $fz;
+  line-height: $lh;
+}
+
+//font-size and line-height and font-weight
+@mixin fz-lh-fw($fz, $lh, $fw){
+  font-size: $fz;
+  line-height: $lh;
+  font-weight:$fw;
+}
+@mixin fw-fz-lh($fw, $fz, $lh){
+    font-size: $fz;
+    line-height: $lh;
+    font-weight:$fw;
+}
+
+

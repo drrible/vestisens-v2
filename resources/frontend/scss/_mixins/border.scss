@@ -1,0 +1,15 @@
+// border
+@mixin border($border-color:black, $border-depth:1px, $border-line:solid){
+  border: $border-depth $border-line $border-color;
+}
+@mixin border-bottom($border-color:black, $border-depth:1px, $border-line:solid){
+  border-bottom: $border-depth $border-line $border-color;
+}
+@mixin border-top($border-color:black, $border-depth:1px, $border-line:solid){
+  border-top: $border-depth $border-line $border-color;
+}
+@mixin border-with-radius($border-color, $radius:4px, $border-depth:1px){
+  @include border($border-color,$border-depth);
+  border-radius: $radius;
+}
+

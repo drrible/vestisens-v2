@@ -1,0 +1,61 @@
+/*_____________ Header ____*/
+.header{
+    &-logo{
+        color: white;
+
+        &:hover {
+            color: #bbffff;
+        }
+    }
+}
+.navbar {
+    background-color: #14798f;
+    box-shadow: none;
+    &-collapse{
+        flex-grow: 0;
+    }
+    .nav-menu{
+       a{
+           color: white;
+           &:before{
+           content:"";
+           position:absolute;
+           width: 0;
+           height: 1px;
+           bottom: -12px;
+           transition: all ease-in-out 0.3s;
+           }
+           &.active{
+               color: #e4ffff;
+               &:before{
+                   width: 100%;
+                   background-color: #e4ffff;
+               }
+           }
+           &:hover {
+               color: #bbffff;
+               &:before{
+                   width: 100%;
+                   background-color: #bbffff;
+               }
+           }
+
+
+       }
+
+    }
+
+    .nav-item{
+        .nav-link{
+            color: white;
+            &:hover {
+                color: #bbffff;
+            }
+        }
+    }
+
+    .navbar-toggler{
+        margin-left: 16px;
+    }
+
+}

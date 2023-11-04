@@ -1,0 +1,21 @@
+// width
+@mixin width-height($width, $height){
+  width: $width;
+  height: $height;
+}
+
+@mixin width-and-height($total){
+  width: $total;
+  height: $total;
+}
+
+@mixin width100p-maxWidth($max-width){
+  width: 100%;
+  max-width: $max-width;
+}
+
+@mixin width-height-padding($width, $height, $padding){
+    width: $width;
+    height: $height;
+    padding: $padding;
+}

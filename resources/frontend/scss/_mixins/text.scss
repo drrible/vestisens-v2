@@ -1,0 +1,9 @@
+@mixin overflowTextInMoreLines($lines: 2){
+  display:inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: $lines;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  white-space: normal;
+}

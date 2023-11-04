@@ -1,0 +1,51 @@
+@import "positions";
+@import "margin";
+
+// absolute
+
+@mixin vertical-center{
+  @include top-and-bottom;
+  @include mt-and-mb;
+}
+@mixin vertical-horizontal-center{
+  @include top-bottom-left-right;
+  margin:auto;
+}
+
+@mixin absolute-vertical-center{
+  position: absolute;
+  @include vertical-center;
+}
+
+@mixin absolute-vertical-horizontal-center{
+  position: absolute;
+  @include vertical-horizontal-center;
+}
+
+
+@mixin absolute-top-bottom($top:0, $bottom:0){
+  position: absolute;
+  @include top-bottom($top, $bottom)
+}
+
+
+@mixin absolute-top-right($top:0, $right:0){
+  position: absolute;
+  @include top-right($top, $right);
+}
+
+@mixin absolute-top-left($top:0, $left:0){
+  position: absolute;
+  @include top-left($top, $left);
+}
+
+@mixin absolute-bottom-right($bottom, $right){
+  position: absolute;
+  @include bottom-right($bottom, $right);
+}
+
+@mixin absolute-bottom-left($bottom, $left){
+  position: absolute;
+  @include bottom-left($bottom, $left);
+}
+

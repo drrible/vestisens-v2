@@ -1,0 +1,88 @@
+//position
+
+@mixin top-bottom($top: 0, $bottom: 0){
+  top: $top;
+  bottom: $bottom;
+}
+@mixin top-and-bottom($total:0){
+  top: $total;
+  bottom: $total;
+}
+@mixin right-left($right:0,$left:0){
+  right: $right;
+  left: $left;
+}
+@mixin right-and-left($total:0){
+  right: $total;
+  left: $total;
+}
+@mixin top-right($top:0,$right:0){
+  top: $top;
+  right: $right;
+}
+@mixin top-and-right($total:0){
+  top: $total;
+  right: $total;
+}
+@mixin top-left($top:0,$left:0){
+  top: $top;
+  left: $left;
+}
+@mixin top-and-left($total:0){
+  top: $total;
+  left: $total;
+}
+
+@mixin top-left-right($top:0,$left:0,$right:0){
+    top: $top;
+    left: $left;
+    right: $right;
+}
+
+@mixin bottom-right($bottom:0,$right:0){
+  bottom: $bottom;
+  right: $right;
+}
+@mixin bottom-and-right($total:0){
+  bottom: $total;
+  right: $total;
+}
+
+@mixin bottom-left($bottom:0,$left:0){
+  bottom: $bottom;
+  left: $left;
+}
+@mixin bottom-and-left($total:0){
+  bottom: $total;
+  left: $total;
+}
+@mixin bottom-and-right($total:0){
+  bottom: $total;
+  right: $total;
+}
+
+@mixin bottom-left-right($right:0,$bottom:0,$left:0){
+  right: $right;
+  bottom: $bottom;
+  left: $left;
+}
+
+@mixin top-bottom-left($top:0,$bottom:0,$left:0){
+  top: $top;
+  bottom: $bottom;
+  left: $left;
+}
+@mixin top-bottom-left-right( $top:0,$right:0,$bottom:0,$left:0){
+  top: $top;
+  right: $right;
+  bottom: $bottom;
+  left: $left;
+}
+
+
+@mixin all-top_bottom_left_right($all:0){
+    top: $all;
+    right: $all;
+    bottom: $all;
+    left: $all;
+}
