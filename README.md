@@ -3,7 +3,7 @@
 
 ## Оглавление
 
-0. git clone https://github.com/drrible/vestisens-v2
+git clone https://github.com/drrible/vestisens-v2
 /*composer install
  php artisan serve */
 ## Заключение
