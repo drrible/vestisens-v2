@@ -1,16 +1,15 @@
 # vestisens-v2
  Laravel Php Project
 
-## Оглавление
+## Table of contents
 
 git clone https://github.com/drrible/vestisens-v2
 1) composer install
 2) cd C:\\Users\user\Downloads\vestisens-v2
 3) php artisan serve
-## Заключение
+## Conclusion
 
-Теперь ваш проект должен быть доступен по адресу http://localhost:8000 (или другому порту, если текущий занят).
+Your project should now be available at http://localhost:8000 (or another port if the current one is busy).
 
-## Проверка работы:
-Откройте браузер и перейдите по указанному адресу, чтобы убедиться, что проект успешно запущен.
-
+## Checking work:
+Open your browser and navigate to the specified address to ensure that the project has launched successfully.
