@@ -1,6 +1,5 @@
 # vestisens-v2
- Laravel Php Project
-
+ Laravel Php Project of teaching for pupils and students vestibular system of human in format of test solving and viewing statistics themselves 
 ## Table of contents
 
 git clone https://github.com/drrible/vestisens-v2
