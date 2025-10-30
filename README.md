@@ -8,7 +8,7 @@ git clone https://github.com/drrible/vestisens-v2
 3) composer yourfilename
 ## Conclusion
 
-Your project should now be available at [](https://localhost:8888) (or another port if the current one is busy).
+Your project should now be available at [](https://github.com/drrible/?=repository/repository) (or another port if the current one is busy).
 
 ## press to check:
 Open your browser and navigate to the specified address to ensure that the project has launched successfully.
