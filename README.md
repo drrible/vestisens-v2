@@ -5,8 +5,10 @@
 git clone https://github.com/drrible/vestisens-v2
 1) composer install
 2) cd C:\\Users\user\Downloads\vestisens-v2
-3) composer yourfilename
-## Conclusion
+
+
+ php artisan serve --prefer-dist (no)
+
 
 Your project should now be available at [@slack](https://github.com/drrible/repository) (or another port if the current one is busy).
 
