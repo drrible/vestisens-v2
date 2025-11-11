@@ -23,6 +23,6 @@ class UpdateListServerFault extends Migration
      */
     public function down()
     {
-        //
+        
     }
 }
