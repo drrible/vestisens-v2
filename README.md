@@ -10,7 +10,7 @@ git clone https://github.com/drrible/vestisens-v2
  php artisan serve --prefer-dist (no)
 
 
-Your project should now be available at [@slack](https://github.com/drrible/repository) (localhost:NNNN).
+Your project should now be available at [@non 7.4 & 8.1 ' be better](https://github.com/drrible/repository) (localhost:NNNN).
 
 ## press to check:
 Open your browser and navigate to the specified address to ensure that the project has launched successfully.
