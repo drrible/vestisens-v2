@@ -16,6 +16,6 @@ class ExampleTest extends TestCase
     {
         $response = $this->get('/');
 
-        $response->assertStatus(404); // Adjust to avoiding server_fault
+        $response->assertStatus(200);  // comment untitled to delete previuos
     }
 }
