@@ -64,6 +64,6 @@
         "preferred-install": "dist",
         "sort-packages": true
     },
-    "minimum-stability": "root",
+    "minimum-stability": "",
     "prefer-stable": true
 }

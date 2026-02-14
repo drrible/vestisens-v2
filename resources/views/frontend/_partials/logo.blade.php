@@ -19,3 +19,17 @@
 {{--</svg>--}}
 
 <h3>VestiSens</h3>
+{
+@if (config('app.env') === 'production')
+    {{admin.header}} == {{/routes/views/AdminAuth/Login}}
+    {{admin.header} == {{/routes/views/AuthAdmin}} // Please check the correct route for AdminAuth/Login and AuthAdmin
+}
+
+
+
+{
+
+    AdminAuth ==  {{admin.footer}}
+    AuthAdmin == {admin.footer}}
+
+}
