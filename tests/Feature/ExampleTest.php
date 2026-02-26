@@ -17,5 +17,6 @@ class ExampleTest extends TestCase
         $response = $this->get('/');
 
         $response->assertStatus(200);  // comment untitled to delete previuos
+        $response->assertStatus(500); // uncomment to
     }
 }
